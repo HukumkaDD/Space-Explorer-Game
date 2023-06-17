@@ -1,5 +1,5 @@
 ---
-title: History of the Alembic
+title: Дневник разработчиков №3 — Развитие
 categories:
 - Space-Explorer-Game
 - History
