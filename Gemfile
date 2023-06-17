@@ -1,2 +1,1 @@
-gem "just-the-docs"
- 
+gem "alembic-jekyll-theme"
