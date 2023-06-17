@@ -1,6 +1,6 @@
 <div style="display:flex;align-items:center;">
   {% if include.image_position == 'left' %}
-    <figure class="figureext figureext--{{ include.position | default: 'center' }}"">
+    <figure class="figureext figureext--{{ include.position | default: 'center' }}">
       <div style="display:flex;align-items:center;">
         <img class="image" src="{{ include.image }}" alt="{{ include.alt | default: include.caption }}" {{ include.width ? include.width | prepend: 'width="' | append: '"' }} {{ include.height ? include.height | prepend: 'height="' | append: '"' }} style="display:block;">
         {% if include.caption %}
@@ -10,7 +10,7 @@
     </figure>
   {% else %}
     <div style="display:flex;align-items:center;>{{ include.text }}</div>
-    <figure class="figureext figureext--{{ include.position | default: 'center' }}"">
+    <figure class="figureext figureext--{{ include.position | default: 'center' }}">
       <div style="display:flex;align-items:center;">
         {% if include.caption %}
           <figcaption class="caption" style="display:block;">{{ include.caption }}</figcaption>
