@@ -16,10 +16,10 @@ body {
 
 
 // Header, feature and footer
-.header
+.header,
 .footer {
   .nav {
-    text-align: right;  
+    text-align: right;
   }
   .logo {
     @include flex(0 0 auto);
@@ -35,7 +35,13 @@ body {
   }
 }
 
-
+.header .nav {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: flex-end;
+  overflow: hidden;
+}
 
 .feature {
   padding-bottom: .4rem;
