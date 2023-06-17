@@ -1,5 +1,5 @@
 ---
-title: Description of an Alembic
+title: Дневник разработчиков №1 — В начале было слово...
 categories:
 - General
 feature_image: "https://picsum.photos/2560/600?image=872"
