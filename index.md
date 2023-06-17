@@ -1,6 +1,6 @@
 ---
 feature_image: "/Space-Explorer-Game/assets/banners/banner4.png"
-title: {% include button.html text="ИГРАТЬ В ДЕМО" link="https://david.darn.es" %}
+title: "{% include button.html text="ИГРАТЬ В ДЕМО" link="https://david.darn.es" %}"
 ---
 ###### Добро пожаловать в неизведанный космический мир, где ждут захватывающие приключения и опасные бои. Вы - один из немногих свободных пилотов, которые нанимаются Федерацией для помощи в подготовке к предстоящему инопланетному сражению.
 </br>
