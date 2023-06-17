@@ -16,7 +16,9 @@ body {
 
 
 // Header, feature and footer
-.header,
+.header{
+  height: 50px;
+},
 .footer {
   .nav {
     text-align: right;
