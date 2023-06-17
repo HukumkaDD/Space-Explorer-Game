@@ -7,6 +7,9 @@ body {
   @include flex-direction(column);
   overflow-x: hidden;
 }
+.layout-page{
+  background-image: url("/Space-Explorer-Game/assets/mainPageScreen/background.jpg");
+}
 
 .main-container {
   width: 90%;
