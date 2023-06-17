@@ -66,18 +66,18 @@ collections:
 defaults:
   -
     scope:
-      path: "/Space-Explorer-Game"
+      path: ""
     values:
       image: "/assets/default-social-image.png" # Default image for sharing
   -
     scope:
-      path: "/Space-Explorer-Game"
+      path: ""
       type: "posts"
     values:
       layout: post # Set the default layout for posts
   -
     scope:
-      path: "/Space-Explorer-Game"
+      path: ""
       type: "pages"
     values:
       layout: page # Set the default layout for pages
@@ -86,7 +86,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "Alembic" # Site name or title, also used in jekyll-seo-tag
-logo: "/Space-Explorer-Game/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
 url: "https://alembic.darn.es" # Site url, also used in jekyll-seo-tag
 baseurl: "/Space-Explorer-Game"
@@ -102,27 +102,27 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 
 # 8. Site favicons & manifest icons
 favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
-  16: '/Space-Explorer-Game/assets/logos/logo@16px.png'
-  32: '/Space-Explorer-Game/assets/logos/logo@32px.png'
-  96: '/Space-Explorer-Game/assets/logos/logo@96px.png'
-  120: '/Space-Explorer-Game/assets/logos/logo@120px.png'
-  144: '/Space-Explorer-Game/assets/logos/logo@144px.png'
-  180: '/Space-Explorer-Game/assets/logos/logo@180px.png'
-  512: '/Space-Explorer-Game/assets/logos/logo@512px.png'
-  1024: '/Space-Explorer-Game/assets/logos/logo@1024px.png'
+  16: '/assets/logos/logo@16px.png'
+  32: '/assets/logos/logo@32px.png'
+  96: '/assets/logos/logo@96px.png'
+  120: '/assets/logos/logo@120px.png'
+  144: '/assets/logos/logo@144px.png'
+  180: '/assets/logos/logo@180px.png'
+  512: '/assets/logos/logo@512px.png'
+  1024: '/assets/logos/logo@1024px.png'
 
 # 9. Site navigation
 navigation_header:
 - title: Home
-  url: /Space-Explorer-Game/
+  url: /
 - title: Elements
-  url: /Space-Explorer-Game/elements/
+  url: /elements/
 - title: Blog
-  url: /Space-Explorer-Game/blog/
+  url: /blog/
 - title: Categories
-  url: /Space-Explorer-Game/categories/
+  url: /categories/
 - title: Search
-  url: /Space-Explorer-Game/search/
+  url: /search/
 - title: Fork Alembic
   url: https://github.com/daviddarnes/alembic
 
