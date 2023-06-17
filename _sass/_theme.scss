@@ -36,6 +36,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 5px 0;
   flex-grow: 1;
   height: 50px; /* или любое другое значение */
 }
