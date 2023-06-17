@@ -1,5 +1,4 @@
-<div>
-  {% if include.image_position == 'left' %}
+ {% if include.image_position == 'left' %}
     <figure class="figureext figureext--{{ include.position | default: 'center' }}" style="padding-right:20px;">
       <div style="display:flex;align-items:center;">
         <img class="image" src="{{ include.image }}" alt="{{ include.alt | default: include.caption }}" {{ include.width ? include.width | prepend: 'width="' | append: '"' }} {{ include.height ? include.height | prepend: 'height="' | append: '"' }} style="display:block;">
