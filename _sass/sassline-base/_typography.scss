@@ -69,12 +69,12 @@ a {
   // Heading level 1.
   h1, .alpha {
     @include sassline($fontsize: alpha, $font: $headingtype, $lineheight: 3, $below: 1, $breakpoint: all);
+    text-shadow: $smallBlackShadow
   }
 
   // Heading level 2.
   h2, .beta {
     @include sassline(beta, $headingtype, 3, 1, all);
-    text-shadow: $smallBlackShadow
   }
 
   // Heading level 3.
