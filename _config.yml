@@ -55,10 +55,10 @@ timezone: Europe/London # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: Posts # Needed for Siteleaf
+    title: Записи # Needed for Siteleaf
     output: true
-    description: "Записи" # The post list page content
-    feature_text: ""
+    description: "" # The post list page content
+    feature_text: "Дневник разработчика"
     feature_image: "/Space-Explorer-Game/assets/banners/banner1.jpg"
 
 # 6. Jekyll collections settings
