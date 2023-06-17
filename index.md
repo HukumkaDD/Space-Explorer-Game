@@ -3,7 +3,7 @@ feature_image: "/Space-Explorer-Game/assets/banners/banner4.png"
 title: ""
 ---
 ###### Добро пожаловать в неизведанный космический мир, где ждут захватывающие приключения и опасные бои. Вы - один из немногих свободных пилотов, которые нанимаются Федерацией для помощи в подготовке к предстоящему инопланетному сражению.
-{% include button.html style="text-align: center;" text="ИГРАТЬ В ДЕМО" link="https://david.darn.es" %}
+{% include button.html style="text-align: center" text="ИГРАТЬ В ДЕМО" link="https://david.darn.es" %}
 <br>
 {% include figureext.html image="/Space-Explorer-Game/assets/mainPageScreen/img3.png" width="51%" height=300 caption="Добро пожаловать в неизведанный космический мир, где ждут захватывающие приключения и опасные бои. Вы - один из немногих свободных пилотов, которые нанимаются Федерацией для помощи в подготовке к предстоящему инопланетному сражению." image_position="left" %}
 ---
