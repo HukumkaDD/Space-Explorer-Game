@@ -1,6 +1,7 @@
 ---
 title: History of the Alembic
 categories:
+- Space-Explorer-Game
 - History
 - External sources
 feature_text: |
