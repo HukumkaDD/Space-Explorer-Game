@@ -71,13 +71,13 @@ defaults:
       image: "/Space-Explorer-Game/assets/default-social-image.png" # Default image for sharing
   -
     scope:
-      path: ""
+      path: "Space-Explorer-Game/"
       type: "posts"
     values:
       layout: post # Set the default layout for posts
   -
     scope:
-      path: ""
+      path: "Space-Explorer-Game/"
       type: "pages"
     values:
       layout: page # Set the default layout for pages
