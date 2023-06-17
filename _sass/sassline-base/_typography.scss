@@ -74,6 +74,7 @@ a {
   // Heading level 2.
   h2, .beta {
     @include sassline(beta, $headingtype, 3, 1, all);
+    text-shadow: $smallBlackShadow
   }
 
   // Heading level 3.
