@@ -9,23 +9,28 @@ body {
 }
 
 figcaption {
-    color: #b2d1ff !important;
-    font-size: 20px !important;
-    text-shadow: 2px 2px 3px black !important;
-    font-family: cursive;
-    text-align: center;
+ color: #b2d1ff !important;
+ font-size: 20px !important;
+ text-shadow: 2px 2px 3px black !important;
+ font-family: cursive;
+ text-align: center;
 }
 .layout-post,
 .layout-blog,
 .layout-page{
-  background-image: url("/Space-Explorer-Game/assets/mainPageScreen/background6.jpg");
-  -webkit-background-size: cover
+ background-image: url("/Space-Explorer-Game/assets/mainPageScreen/background6.jpg");
+ -webkit-background-size: cover
 }
 
 .main-container {
   width: 90%;
   max-width: 2400px;
   margin: 0 auto;
+  .content {
+    @include breakpoint(break-1) {
+      width: 62%;
+    }
+  }
 }
 
 .container {
