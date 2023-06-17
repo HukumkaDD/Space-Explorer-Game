@@ -11,10 +11,10 @@
     <div style="display:flex;align-items:center;">{{ include.text }}</div>
   {% else %}
     <div style="display:flex;align-items:center;">{{ include.text }}</div>
-    <figure class="figureext figureext--{{ include.position | default: 'center' }}" style="margin-right:15px">
+    <figure class="figureext figureext--{{ include.position | default: 'center' }}">
       <div style="display:flex;align-items:center;">
         {% if include.caption %}
-          <figcaption class="caption" style="display:block;">{{ include.caption }}</figcaption>
+          <figcaption class="caption" style="display:block;margin-right:15px">{{ include.caption }}</figcaption>
         {% endif %}
         <img class="image" src="{{ include.image }}" alt="{{ include.alt | default: include.caption }}" {{ include.width ? include.width | prepend: 'width="' | append: '"' }} {{ include.height ? include.height | prepend: 'height="' | append: '"' }} style="display:block;">
       </div>
