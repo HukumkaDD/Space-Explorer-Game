@@ -1,6 +1,6 @@
 ---
 feature_image: "/Space-Explorer-Game/assets/banners/banner4.png"
-title: About Alembic
+title: ""
 ---
 
 {% include figureext.html image="/Space-Explorer-Game/assets/mainPageScreen/img2.png" width="51%" height=300 caption="Добро пожаловать в неизведанный космический мир, где ждут захватывающие приключения и опасные бои. Вы - один из немногих свободных пилотов, которые нанимаются Федерацией для помощи в подготовке к предстоящему инопланетному сражению." image_position="left" %}
