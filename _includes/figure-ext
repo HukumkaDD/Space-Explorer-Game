@@ -1,0 +1,23 @@
+<figure class="figure-ext figure-ext--{{ include.position | default: 'center' }}">
+    {% if include.image_position == 'left' %}
+        <div class="image-text image-left">
+            <img class="image" src="{{ include.image }}" alt="{{ include.alt | default: include.caption }}" {{ include.width ? include.width | prepend: 'width="' | append: '"' }} {{ include.height ? include.height | prepend: 'height="' | append: '"' }}>
+            {% if include.caption %}
+                <figcaption class="caption">{{ include.caption }}</figcaption>
+            {% endif %}
+            <div class="text-block">
+                <p>Ваш текст здесь...</p>
+            </div>
+        </div>
+    {% else %}
+        <div class="image-text image-right">
+            <div class="text-block">
+                <p>Ваш текст здесь...</p>
+            </div>
+            <img class="image" src="{{ include.image }}" alt="{{ include.alt | default: include.caption }}" {{ include.width ? include.width | prepend: 'width="' | append: '"' }} {{ include.height ? include.height | prepend: 'height="' | append: '"' }}>
+            {% if include.caption %}
+                <figcaption class="caption">{{ include.caption }}</figcaption>
+            {% endif %}
+        </div>
+    {% endif %}
+</figure>
