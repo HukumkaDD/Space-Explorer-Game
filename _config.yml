@@ -60,7 +60,7 @@ collections:
     description: "My thoughts and ideas" # The post list page content
     feature_text: |
       Welcome to the blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+    feature_image: "http://zornet.ru/_ld/80/94563811.jpg"
 
 # 6. Jekyll collections settings
 defaults:
@@ -113,11 +113,11 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 
 # 9. Site navigation
 navigation_header:
-- title: Home
+- title: Главная
   url: /
 - title: Elements
   url: /elements/
-- title: Blog
+- title: Дневник разработчика
   url: /blog/
 - title: Categories
   url: /categories/
