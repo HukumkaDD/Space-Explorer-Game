@@ -7,6 +7,12 @@ body {
   @include flex-direction(column);
   overflow-x: hidden;
 }
+figcaption {
+    color: #6889ff;
+    text-shadow: 3px 1px 3px blue;
+    font-size: 20px;
+}
+
 .layout-page{
   background-image: url("/Space-Explorer-Game/assets/mainPageScreen/background.jpg");
   -webkit-background-size: cover
