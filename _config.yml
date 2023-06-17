@@ -58,7 +58,8 @@ collections:
     title: Posts # Needed for Siteleaf
     output: true
     description: "My thoughts and ideas" # The post list page content
-    feature_text: | Дневник разработчика   
+    feature_text: |
+      Welcome to the blog  
     feature_image: "/Space-Explorer-Game/assets/banners/banner1.jpg"
 
 # 6. Jekyll collections settings
