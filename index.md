@@ -1,4 +1,5 @@
 ---
+title: Об Игре
 feature_image: "/Space-Explorer-Game/assets/banners/banner4.png"
 ---
 
