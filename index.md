@@ -1,8 +1,8 @@
 ---
 title: About Alembic
 feature_text: |
-  # Space Explorer
-  Отправляйтесь в космос и переживите захватывающие приключения.
+  #  
+  # Отправляйтесь в космос и переживите захватывающие приключения.
 feature_image: "/Space-Explorer-Game/assets/banners/banner1.jpg"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
