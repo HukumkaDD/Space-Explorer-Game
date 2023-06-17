@@ -33,6 +33,7 @@ aside,
 details, /* 1 */
 figcaption,
 figure,
+figureext,
 footer,
 header,
 main, /* 2 */
@@ -230,7 +231,7 @@ samp {
 /**
  * Add the correct margin in IE 8.
  */
-
+figureext,
 figure {
   margin: 1em 40px;
 }
