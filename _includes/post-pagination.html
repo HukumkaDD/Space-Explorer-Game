@@ -6,7 +6,7 @@
     <span class="pagination  pagination--previous">&larr; Назад</span>
   {% endif %}
 
-  <span class="pagination  pagination--counter">Страница: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  <span class="pagination  pagination--counter">Страница: {{ paginator.page }} из {{ paginator.total_pages }}</span>
 
   {% if paginator.next_page %}
     <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="pagination  pagination--next">Далее &rarr;</a>
