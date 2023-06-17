@@ -14,4 +14,4 @@ feature_image: "/Space-Explorer-Game/assets/banners/banner4.png"
 
 "Space Explorer" - это игра, которая подарит вам незабываемый опыт и заставит начать думать о космических приключениях по-новому. Готовы ли вы отправиться в неизведанные глубины космоса?
 
-{% raw %}{% include button.html text="A button" link="https://david.darn.es" %}
+{% include button.html text="ИГРАТЬ В ДЕМО" link="https://david.darn.es" %}
