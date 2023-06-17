@@ -14,9 +14,34 @@ body {
   margin: 0 auto;
 }
 
+.header{
+  display: flex;
+  flex-direction: column;
+  height: 50px; /* или любое другое значение */
+}
+
+.header .nav {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: flex-end;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.header .logo {
+  flex: 0 0 auto;
+}
+
+.header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 0;
+  flex-grow: 1;
+}
 
 // Header, feature and footer
-.header,
 .footer {
   .nav {
     text-align: right;
@@ -35,12 +60,6 @@ body {
   }
 }
 
-.header .nav {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: flex-end;
-  justify-content: flex-end;
-  overflow: hidden;
 }
 
 .feature {
