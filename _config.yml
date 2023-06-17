@@ -60,7 +60,6 @@ collections:
     description: "" # The post list page content
     feature_text: "Дневник разработчика"
     feature_image: "/Space-Explorer-Game/assets/banners/banner1.jpg"
-    image:""
 
 # 6. Jekyll collections settings
 defaults:
