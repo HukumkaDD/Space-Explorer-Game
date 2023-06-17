@@ -118,10 +118,11 @@ navigation_header:
   url: /blog/  
 - title: Поиск
   url: /search/
-- title: Elements
-  url: /elements/
-- title: Categories
+- title: Категории
   url: /categories/
+- title: Элементы
+  url: /elements/
+
 
 navigation_footer:
 - title: Created by David Darnes
