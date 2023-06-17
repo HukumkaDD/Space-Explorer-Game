@@ -1,5 +1,5 @@
 ---
-title: Description of a Pot Still
+title: Дневник разработчиков №2 — Дальнейшие планы
 categories:
 - Space-Explorer-Game
 - General
