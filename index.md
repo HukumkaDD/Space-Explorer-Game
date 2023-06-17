@@ -6,7 +6,7 @@ feature_image: "/Space-Explorer-Game/assets/banners/banner4.png"
 {% include figure.html image="/Space-Explorer-Game/assets/mainPageScreen/img1.jpg" caption="" position="left" width="550" height="1600" %}
 Добро пожаловать в неизведанный космический мир, где ждут захватывающие приключения и опасные бои. В "Space Explorer", вы - один из немногих свободных пилотов, которые нанимаются Федерацией для помощи в подготовке к предстоящему инопланетному сражению.
 
-
+{% include 'figure.html' with image='example.jpg' width=500 height=300 caption='Test' image_position='left' %}
 
 Вы отправитесь в далекие уголки космоса, где будете искать ресурсы, обнаруживать новые планеты и исследовать различные системы. Но будьте осторожны - на вашем пути встретятся различные препятствия и враги, которые попытаются помешать вашим планам.
 
