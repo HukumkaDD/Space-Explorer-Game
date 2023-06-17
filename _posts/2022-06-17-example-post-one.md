@@ -4,7 +4,7 @@ categories:
 - General
 feature_image: "/Space-Explorer-Game/assets/banners/banner1.jpg"
 ---
-
+{% include figure.html image="/Space-Explorer-Game/assets/banners/banner1.jpg" caption="" width="800" height="300" %}
 The complete distilling apparatus consists of three parts: the "cucurbit" (Arabic ḳarʿa, Greek βίκος), the still pot containing the liquid to be distilled, which is heated by a flame; the "head" or "cap" (Arabic anbiḳ, Greek ἄμβιξ) which fits over the mouth of the cucurbit to receive the vapors, with an attached downward-sloping "tube" (Greek σωλήν), leading to the "receiver" (Arabic ḳābila, Greek ἄγγος or φιάλη) container.
 
 <!-- more -->
