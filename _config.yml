@@ -73,13 +73,13 @@ navigation_header:
 - title: Home
   url: /Space-Explorer-Game/
 - title: Elements
-  url: /elements/
+  url: /Space-Explorer-Game/elements/
 - title: Blog
-  url: /blog/
+  url: /Space-Explorer-Game/blog/
 - title: Categories
-  url: /categories/
+  url: /Space-Explorer-Game/categories/
 - title: Search
-  url: /search/
+  url: /Space-Explorer-Game/search/
 - title: Fork Alembic
   url: https://github.com/daviddarnes/alembic
 
