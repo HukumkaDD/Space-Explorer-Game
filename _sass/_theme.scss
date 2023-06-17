@@ -19,7 +19,7 @@ body {
 .header
 .footer {
   .nav {
-    text-align: right;
+    text-align: right;  
   }
   .logo {
     @include flex(0 0 auto);
@@ -36,7 +36,14 @@ body {
 }
 
 .header{
-height: 50px;
+ .nav {
+    height: 50px;  
+  }
+  .logo {
+    height: 100%; 
+  }
+  .container {
+    height: 50px; 
 }
 
 .header .nav {
