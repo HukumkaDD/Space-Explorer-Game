@@ -17,14 +17,14 @@ figcaption {
 }
 
 .layout-page::before {
+  background-image: url("/Space-Explorer-Game/assets/mainPageScreen/background6.jpg");
+ -webkit-background-size: cover;
   filter: blur(5px);
 }
 
 .layout-post,
 .layout-blog,
 .layout-page{
- background-image: url("/Space-Explorer-Game/assets/mainPageScreen/background6.jpg");
- -webkit-background-size: cover;
 }
 
 .main-container {
